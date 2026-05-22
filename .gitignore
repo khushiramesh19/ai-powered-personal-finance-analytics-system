@@ -1,0 +1,38 @@
+# Dependency folders
+node_modules/
+jspm_packages/
+web_modules/
+
+# Production build outputs
+dist/
+build/
+.svelte-kit/
+.next/
+out/
+
+# Database files & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+mock_db.json
+backend/mock_db.json
+
+# IDEs, Editors & logs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS systems
+.DS_Store
+Thumbs.db
