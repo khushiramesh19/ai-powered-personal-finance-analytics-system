@@ -6,9 +6,14 @@ This system is a next-generation, full-stack personal finance management applica
 Built using a microservice architecture, it showcases advanced data visualization, secure multi-tier authentication, and in-browser predictive analytics.
 
 
-System Architecture
+##  System Architecture
 
-Separates its user interface, local data processing, and data storage into distinct, specialized layers:LayerComponentFunctionalityClient InterfaceReact + Tailwind CSSRenders the dashboard and manages interactive user state.AI IntelligenceOLS Linear Regression EngineRuns natively in the browser for instant, client-side predictive forecasting.Application ServerNode.js + ExpressProcesses secure incoming HTTPS requests via a JSON REST API.Data StorageMongoDBStores authenticated user accounts and historical transaction ledgers.
+This system separates its user interface, data processing, and storage into a clean, decoupled full-stack architecture:
+
+* **Frontend View Layer:** A single-page application built using **React** and **Tailwind CSS**. It handles interactive UI states, native dark mode configuration, and streams responsive data components via **Recharts**.
+* **AI Intelligence Layer:** A native client-side analytical engine executing **Ordinary Least Squares (OLS) Linear Regression** directly in the browser for instant predictive expense forecasting.
+* **Backend API Gateway Tier:** A restful API built on **Node.js** and **Express**. It handles secure, stateless user session controls, incoming HTTPS requests, JSON schemas, and routing traffic.
+* **Database Storage Tier:** A robust **MongoDB** NoSQL database instance configured to store encrypted user profile credentials and historical ledger transactions.
 
 ##  Features
 
