@@ -30,7 +30,7 @@ This system separates its user interface, data processing, and storage into a cl
 * **Smart Spending Suggestions :** Algorithmic heuristics that generate plain-text structural advice: *"You saved 96% of your income this month. Consider locking a tighter budget for bills."*
 * **AI Financial Health Score :** Calculates a real-time startup-level score (0-100) dynamically generated using savings-to-income ratios, overspending metrics, and earning consistency.
 
-### Extra Features That WOW Recruiters 
+### Extra Features
 
 * **Recurring Subscription Detection :** Smart recognition patterns that isolate and flag continuous billing cycles and active subscriptions.
 * **Export Audit Statements :** Download comprehensive monthly financial statements and fiscal summaries instantly.
