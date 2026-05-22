@@ -1,42 +1,8 @@
 
-```markdown
-# CENTRA: AI-Powered Personal Finance Analytics Suite 🤖💸
-
 Centra is a next-generation, full-stack personal finance management application that combines robust expense tracking with machine learning to predict future spending, analyze financial behavior, and offer automated, smart budgeting suggestions. 
 
 Built using a microservice architecture, it showcases advanced data visualization, secure multi-tier authentication, and in-browser predictive analytics.
-
----
-
-## 🏗️ System Architecture
-
-Centra utilizes a decoupled full-stack architecture to separate core application logic from client-side machine learning processes.
-
-```text
-[Client App: React + Tailwind] ──(In-Browser OLS Engine)──► [Linear Regression Models]
-       │
-       ▼ (HTTPS / JSON API)
-[Core Backend: Node.js + Express] 
-       │
-       ▼ 
-[Database: MongoDB]
-
-```
-
-* **Frontend Tier:** Responsive SPA built with React and Tailwind CSS, utilizing Recharts for real-time data streaming and rendering alongside a client-side linear regression forecasting engine.
-* **Core Backend Tier:** RESTful API built with Node.js and Express handling authentication, data mutation, and relational aggregation.
-* **Database Tier:** NoSQL document store optimized for transactional ledger data.
-
----
-
-## 📷 Screenshots
-
-### Executive Dashboard
-
-
-*Interactive user dashboard showcasing financial health evaluation scores, total net metrics, and AI recommendations.*
-
----
+🏗️ System ArchitectureCentra separates its user interface, local data processing, and data storage into distinct, specialized layers:LayerComponentFunctionalityClient InterfaceReact + Tailwind CSSRenders the dashboard and manages interactive user state.AI IntelligenceOLS Linear Regression EngineRuns natively in the browser for instant, client-side predictive forecasting.Application ServerNode.js + ExpressProcesses secure incoming HTTPS requests via a JSON REST API.Data StorageMongoDBStores authenticated user accounts and historical transaction ledgers.
 
 ## 🌟 Features
 
