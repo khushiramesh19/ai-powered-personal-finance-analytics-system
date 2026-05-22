@@ -1,34 +1,40 @@
+# AI-Powered Personal Finance Analytics System
 
-Centra is a next-generation, full-stack personal finance management application that combines robust expense tracking with machine learning to predict future spending, analyze financial behavior, and offer automated, smart budgeting suggestions. 
+
+This system is a next-generation, full-stack personal finance management application that combines robust expense tracking with machine learning to predict future spending, analyze financial behavior, and offer automated, smart budgeting suggestions. 
 
 Built using a microservice architecture, it showcases advanced data visualization, secure multi-tier authentication, and in-browser predictive analytics.
-🏗️ System ArchitectureCentra separates its user interface, local data processing, and data storage into distinct, specialized layers:LayerComponentFunctionalityClient InterfaceReact + Tailwind CSSRenders the dashboard and manages interactive user state.AI IntelligenceOLS Linear Regression EngineRuns natively in the browser for instant, client-side predictive forecasting.Application ServerNode.js + ExpressProcesses secure incoming HTTPS requests via a JSON REST API.Data StorageMongoDBStores authenticated user accounts and historical transaction ledgers.
 
-## 🌟 Features
+
+System Architecture
+
+Separates its user interface, local data processing, and data storage into distinct, specialized layers:LayerComponentFunctionalityClient InterfaceReact + Tailwind CSSRenders the dashboard and manages interactive user state.AI IntelligenceOLS Linear Regression EngineRuns natively in the browser for instant, client-side predictive forecasting.Application ServerNode.js + ExpressProcesses secure incoming HTTPS requests via a JSON REST API.Data StorageMongoDBStores authenticated user accounts and historical transaction ledgers.
+
+##  Features
 
 ### Core Financial Modules (Full-Stack)
 
-* **User Authentication 🔐:** Bulletproof Signup/Login workflows powered by JSON Web Tokens (JWT) stored securely, ensuring protected API routes.
-* **Expense & Income Ledger 💸:** Full CRUD capabilities to add, edit, or remove entries categorized dynamically (*Food, Travel, Shopping, Bills, Entertainment, Salary*).
-* **Dashboard Analytics 📊:** Sleek, high-performance visual data distribution graphs powered by Recharts (Pie, Bar, and Line charts).
-* **Budget Setting Feature 🎯:** Set monthly fiscal limitations per category with real-time UI warning notifications when approaching limits.
+* **User Authentication :** Bulletproof Signup/Login workflows powered by JSON Web Tokens (JWT) stored securely, ensuring protected API routes.
+* **Expense & Income Ledger :** Full CRUD capabilities to add, edit, or remove entries categorized dynamically (*Food, Travel, Shopping, Bills, Entertainment, Salary*).
+* **Dashboard Analytics :** Sleek, high-performance visual data distribution graphs powered by Recharts (Pie, Bar, and Line charts).
+* **Budget Setting Feature :** Set monthly fiscal limitations per category with real-time UI warning notifications when approaching limits.
 
-### AI Features (Intelligence Layer) 🔥
+### AI Features (Intelligence Layer) 
 
-* **In-Browser Expense Prediction ⭐:** Runs a direct in-browser Ordinary Least Squares (OLS) linear regression forecasting engine to evaluate legacy transaction patterns and forecast upcoming spending trends.
-* **Smart Spending Suggestions 💡:** Algorithmic heuristics that generate plain-text structural advice: *"You saved 96% of your income this month. Consider locking a tighter budget for bills."*
-* **AI Financial Health Score 🏆:** Calculates a real-time startup-level score (0-100) dynamically generated using savings-to-income ratios, overspending metrics, and earning consistency.
+* **In-Browser Expense Prediction :** Runs a direct in-browser Ordinary Least Squares (OLS) linear regression forecasting engine to evaluate legacy transaction patterns and forecast upcoming spending trends.
+* **Smart Spending Suggestions :** Algorithmic heuristics that generate plain-text structural advice: *"You saved 96% of your income this month. Consider locking a tighter budget for bills."*
+* **AI Financial Health Score :** Calculates a real-time startup-level score (0-100) dynamically generated using savings-to-income ratios, overspending metrics, and earning consistency.
 
-### Extra Features That WOW Recruiters 🔥
+### Extra Features That WOW Recruiters 
 
-* **Recurring Subscription Detection 🔄:** Smart recognition patterns that isolate and flag continuous billing cycles and active subscriptions.
-* **Export Audit Statements 📄:** Download comprehensive monthly financial statements and fiscal summaries instantly.
-* **Dark Mode Toggle 🌙:** Visually stunning, recruiter-optimized interface built seamlessly using Tailwind's state configurations.
-* **Mobile Responsive UI 📱:** Completely fluid layouts designed from a mobile-first philosophy to ensure usability across any device viewport.
+* **Recurring Subscription Detection :** Smart recognition patterns that isolate and flag continuous billing cycles and active subscriptions.
+* **Export Audit Statements :** Download comprehensive monthly financial statements and fiscal summaries instantly.
+* **Dark Mode Toggle :** Visually stunning, recruiter-optimized interface built seamlessly using Tailwind's state configurations.
+* **Mobile Responsive UI :** Completely fluid layouts designed from a mobile-first philosophy to ensure usability across any device viewport.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology | Description |
 | --- | --- | --- |
@@ -43,7 +49,7 @@ Built using a microservice architecture, it showcases advanced data visualizatio
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
